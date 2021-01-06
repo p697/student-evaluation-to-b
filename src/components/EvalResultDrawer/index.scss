@@ -1,0 +1,33 @@
+.resultDrawer {
+  padding: 0 20px;
+  padding-top: 4px;
+
+  &-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-left {
+      font-size: 18px;
+      height: 100%;
+      cursor: pointer;
+    }
+
+    &-right {
+      display: flex;
+      margin-right: 22px;
+    }
+  }
+
+  &-content {
+
+    &-operateBtn {
+      cursor: pointer;
+      background: none;
+      border: 0;
+      color: #1890ff;
+      outline-color: #1890ff;
+    }
+  }
+}

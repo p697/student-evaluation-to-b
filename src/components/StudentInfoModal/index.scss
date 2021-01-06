@@ -1,0 +1,16 @@
+
+.studentInfoModal {
+  
+  &-form {
+
+    &-title {
+      margin-bottom: 6px;
+    }
+
+    &-submit {
+      opacity: 0;
+      z-index: -1;
+      position: absolute;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.singleResultDrawer {
+  padding: 0 20px;
+  padding-top: 4px;
+
+  &-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    &-left {
+      font-size: 18px;
+      height: 100%;
+      cursor: pointer;
+    }
+
+    &-right {
+      position: relative;
+      display: flex;
+      margin-right: 22px;
+      font-size: 30px;
+
+      &-tab {
+        position: absolute;
+        left: 32px;
+        top: -29px;
+        font-size: 30px !important;
+      }
+    }
+  }
+
+  &-content {
+
+    &-operation {
+      display: flex;
+      align-items: center;
+
+      &-btn {
+        min-width: 68px;
+        cursor: pointer;
+        background: none;
+        border: 0;
+        color: #1890ff;
+        outline-color: #1890ff;
+      }
+
+      &-line {
+        background-color: #000000;
+        opacity: 0.15;
+        height: 20px;
+        width: 1px;
+        margin: 0 5px;
+      }
+      
+    }
+  }
+}
